@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 #Data Shape
-df = pd.read_csv('C:\\Users\\YASH\\Downloads\\Heart.csv')
+df = pd.read_csv('C:\\Users\\System_Name\\Downloads\\Heart.csv')
 print("Shape of Data: ",df.shape,"\n\n")
 
 #Missing Values
