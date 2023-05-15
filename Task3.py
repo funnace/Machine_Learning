@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 # select relevant columns
-df = pd.read_csv('C:\\Users\\YASH\\Downloads\\Mall_Customers.csv')
+df = pd.read_csv('C:\\Users\\System_Name\\Downloads\\Mall_Customers.csv')
 X = df.iloc[:, [3, 4]].values
 
 # encode categorical variable
