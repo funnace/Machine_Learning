@@ -5,7 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 # Load the SMS Spam dataset
-df = pd.read_csv('C:\\Users\\YASH\\Downloads\\sms_spam.csv', encoding='latin-1')
+df = pd.read_csv('C:\\Users\\System_Name\\Downloads\\sms_spam.csv', encoding='latin-1')
 
 # Preprocessing
 df.columns = ['label', 'message']
